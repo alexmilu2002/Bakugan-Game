@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.battle-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.bakugan {
+    border: 2px solid #000;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.bakugan img {
+    width: 250px;
+    height: 250px;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.rounds {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#battle-log {
+    margin-top: 10px;
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #fff;
+    height: 150px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    text-align: left;
+}
